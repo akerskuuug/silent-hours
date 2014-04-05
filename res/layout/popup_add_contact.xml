@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+    >
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" 
+	    android:padding="12dip">
+	    
+	    <TextView 
+	        android:id="@+id/contact_fname_title"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="13sp"
+	        android:text="@string/user_fname"
+	        />
+	    <EditText
+	        android:id="@+id/contact_fname_input"
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_marginBottom="5dip"
+	        android:inputType="textCapWords"
+	        android:singleLine="true"
+	        android:maxLines="1"
+	       
+	        />
+
+	    <TextView  
+	        android:id="@+id/contact_lname_title"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="13sp"
+	        android:text="@string/user_lname"
+	        />
+	     <EditText
+	        android:id="@+id/contact_lname_input"
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_marginBottom="5dip"
+	        android:inputType="textCapWords"
+	        android:singleLine="true"
+	        android:maxLines="1"
+	       
+	        />
+	     
+	    <TextView 
+	        android:id="@+id/contact_email_title"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="13sp"
+	        android:text="@string/user_email"
+	        />
+	     <EditText
+	        android:id="@+id/contact_email_input"
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_marginBottom="5dip"
+	        android:hint="@string/email_hint"
+	        android:singleLine="true"
+	        android:inputType="textEmailAddress"
+	        android:maxLines="1"
+	       
+	        />
+	     
+	     <TextView
+	        android:id="@+id/contact_n_work_title"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="13sp"
+	        android:text="@string/contact_work_prompt"
+	        />
+	     <EditText
+	        android:id="@+id/contact_n_work_input"
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_marginBottom="5dip"
+	        android:hint="@string/number_hint"
+	        android:singleLine="true"
+	        android:inputType="phone"
+	        android:maxLines="1"
+	       
+	        />
+	     
+	     <TextView
+	        android:id="@+id/contact_n_mobile_title"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="13sp"
+	        android:text="@string/user_mobile"
+	        />
+	     <EditText
+	        android:id="@+id/contact_n_mobile_input"
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_marginBottom="5dip"
+	        android:hint="@string/number_hint"
+	        android:singleLine="true"
+	        android:inputType="phone"
+	        android:maxLines="1"
+	       
+	        />
+	     
+	    <TextView 
+	        android:id="@+id/contact_n_home_title"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="13sp"
+	        android:text="@string/user_home"
+	        />
+	     <EditText
+	        android:id="@+id/contact_n_home_input"
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_marginBottom="5dip"
+	        android:hint="@string/number_hint"
+	        android:singleLine="true"
+	        android:inputType="phone"
+	        android:maxLines="1"
+	       
+	        />
+	     
+	     <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="13sp"
+	        android:text="@string/contact_primary_number_prompt"/>
+		<Spinner 
+	        android:id="@+id/contact_primary_number_input"
+		    android:layout_width="match_parent"
+		    android:layout_height="50dip"
+	        android:layout_marginBottom="15dip"
+	        android:entries="@array/primary_number_options"/>
+		
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="13sp"
+	        android:text="@string/contact_type_prompt"/>
+		<Spinner 
+	        android:id="@+id/contact_type_input"
+		    android:layout_width="match_parent"
+		    android:layout_height="50dip"
+	        android:layout_marginBottom="15dip"
+	        android:entries="@array/folder_types"/>
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="13sp"
+	        android:text="@string/contact_folder_prompt"/>
+		<Spinner
+	        android:id="@+id/contact_folder_input"
+		    android:layout_width="match_parent"
+		    android:layout_height="50dip"
+	        android:layout_marginBottom="15dip"
+		    />
+	</LinearLayout>
+
+</ScrollView>

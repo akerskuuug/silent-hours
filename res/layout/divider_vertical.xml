@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/divider_vertical"
+	android:layout_width="1dip" 
+	android:layout_height="match_parent" 
+	android:layout_gravity="center_horizontal"
+	android:layout_marginLeft="7dip"
+	android:layout_marginRight="7dip"
+	android:layout_marginTop="2dip"
+	android:layout_marginBottom="2dip"
+	android:background="#BBBBBB"/>

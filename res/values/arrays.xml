@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array
+        name="primary_number_options">
+        <item>Jobb</item>
+        <item>Mobil</item>
+        <item>Hem</item>
+    </string-array>
+     <string-array
+        name="primary_number_values">
+        <item>work</item>
+        <item>cell</item>
+        <item>home</item>
+    </string-array>
+     
+     <string-array
+        name="folder_types">
+        <item>Gemensam</item>
+        <item>Privat</item>
+    </string-array>
+    
+     <string-array
+        name="folder_type_values">
+        <item>c</item>
+        <item>p</item>
+    </string-array>
+    
+     <string-array
+        name="voicemail_texts">
+        <item>Ring röstbrevlåda</item>
+        <item>Ignorera</item>
+    </string-array>
+     <string-array
+        name="call_setting_texts">
+        <item>Nummer för visning utåt</item>
+        <!--<item>Hantera fastnummer</item>-->
+    </string-array>
+    <string-array
+        name="call_setting_show_n">
+        <item>Mobilnummer</item>
+        <item>Fastnummer</item>
+    </string-array>
+    <string-array
+        name="call_setting_hide_number">
+        <item>Visa nummer</item>
+        <item>Dölj nummer</item>
+    </string-array>
+     
+    <string-array
+        name="status_strings">
+        <item>Tillgänglig</item>
+        <item>Lunch</item>
+        <item>Egen text</item>
+        <item>Möte</item>
+        <item>Kundbesök</item>
+        <item>Tillfälligt ute</item>
+        <item>Borta för dagen</item>
+        <item>Affärsresa</item>
+        <item>Sjuk</item>
+        <item>Barnomsorg</item>
+        <item>Semester</item>
+        <item>Föräldraledighet</item>
+        <item>Ledig</item>
+    </string-array> 
+    
+    <string-array
+        name="misc_item_icons">
+        <item>@drawable/action_settings</item>
+        <item>@drawable/social_person</item>
+        <item>@drawable/navigation_forward</item>
+        <item>@drawable/content_import_export</item>
+        <item>@drawable/ic_menu_pad</item>
+        <item>@drawable/action_about</item>
+        <item>@drawable/action_help</item> 
+        <item>@drawable/navigation_cancel</item>
+    </string-array>
+    <string-array
+        name="misc_item_icons_dark">
+        <item>@drawable/action_settings_dark</item>
+        <item>@drawable/social_person_dark</item>
+        <item>@drawable/navigation_forward_dark</item>
+        <item>@drawable/content_import_export_dark</item>
+        <item>@drawable/ic_menu_pad_dark</item>
+        <item>@drawable/action_about_dark</item>
+        <item>@drawable/action_help_dark</item> 
+        <item>@drawable/navigation_cancel_dark</item>
+    </string-array>
+    <string-array
+        name="misc_item_texts">
+        <item>Inställningar</item>
+        <item>Användare</item>
+    	<item>Följ mig</item>
+    	<item>Vidarekoppling</item>
+    	<item>Samtalsinställningar</item>
+        <item>Om</item> 
+    	<item>Hjälp</item>
+    	<item>Logga ut</item>
+    </string-array>
+    
+
+    
+    <string-array
+        name="shortcut_item_icons">
+        <item>@drawable/ic_logout_30</item>
+        <item>@drawable/ic_logout_60</item>
+        <item>@drawable/action_settings</item>
+        <item>@drawable/social_person</item>
+        <item>@drawable/navigation_forward</item>
+        <item>@drawable/content_import_export</item>
+        <item>@drawable/ic_menu_pad</item>
+        <item>@drawable/action_about</item>
+        <item>@drawable/action_help</item> 
+        <item>@drawable/navigation_cancel</item>
+    </string-array>
+    <string-array
+        name="shortcut_item_icons_dark">
+        <item>@drawable/ic_logout_30_dark</item>
+        <item>@drawable/ic_logout_60_dark</item>
+        <item>@drawable/action_settings_dark</item>
+        <item>@drawable/social_person_dark</item>
+        <item>@drawable/navigation_forward_dark</item>
+        <item>@drawable/content_import_export_dark</item>
+        <item>@drawable/ic_menu_pad_dark</item>
+        <item>@drawable/action_about_dark</item>
+        <item>@drawable/action_help_dark</item> 
+        <item>@drawable/navigation_cancel_dark</item>
+    </string-array>
+    
+    
+     <string-array
+        name="help_item_icons">
+        <item>@drawable/ic_contact_picture</item>
+        <item>@drawable/ic_contact_picture</item>
+        <item>@drawable/ic_contact_picture</item>
+        <item>@drawable/ic_contact_picture</item>
+        <item>@drawable/ic_action_call</item>
+        <item>@drawable/ic_action_pause</item>
+        <item>@drawable/ic_action_end_call</item>
+        <item>@drawable/ic_menu_pad</item>
+        <item>@drawable/call_status_in_c</item>
+        <item>@drawable/call_status_in_r</item>
+        <item>@drawable/call_status_out_c</item>
+        <item>@drawable/call_status_out_r</item>
+        <item>@drawable/call_status_hold</item>
+        <item>@drawable/ic_action_call</item>>
+        <item>@drawable/ic_action_call</item>
+        <item>@drawable/ic_action_end_call</item>
+        
+    </string-array>
+     <string-array
+        name="help_item_texts"> 
+        <item>Användaren är online</item>
+        <item>Användaren är offline</item>
+    	<item>Användaren är upptagen i telefon</item>
+    	<item>Användaren har inkommande samtal</item>
+    	<item>Svara/återuppta samtal</item>
+    	<item>Parkera samtal</item>
+    	<item>Avsluta samtal</item>
+    	<item>Koppla samtal till valfritt nummer</item>
+    	<item>Kopplat (aktivt) inkommande samtal</item>
+    	<item>Ej kopplat inkommande samtal (ringer)</item>
+    	<item>Kopplat (aktivt) utgående samtal</item>
+    	<item>Ej kopplat utgående samtal (ringer)</item>
+    	<item>Parkerat in-/utgående samtal</item>
+    	<item>Besvarat inkommande samtal i historik</item>
+    	<item>Besvarat utgående samtal i historik</item>
+    	<item>Ej besvarat samtal i historik</item>
+    	
+    </string-array>
+    
+     
+     
+   	<string-array
+        name="duration">
+        <item>0 sek</item>
+        <item>1 sek</item>
+        <item>2 sek</item>
+        <item>3 sek</item>
+        <item>4 sek</item>
+        <item>5 sek</item>
+        <item>6 sek</item>
+        <item>7 sek</item>
+        <item>8 sek</item>
+        <item>9 sek</item>
+        <item>10 sek</item>
+        <item>11 sek</item>
+        <item>12 sek</item>
+        <item>13 sek</item>
+        <item>14 sek</item>
+        <item>15 sek</item>
+        <item>16 sek</item>
+        <item>17 sek</item>
+        <item>18 sek</item>
+        <item>19 sek</item>
+        <item>20 sek</item>
+        <item>21 sek</item>
+        <item>22 sek</item>
+        <item>23 sek</item>
+        <item>24 sek</item>
+        <item>25 sek</item>
+        <item>26 sek</item>
+        <item>27 sek</item>
+        <item>28 sek</item>
+        <item>29 sek</item>
+        <item>30 sek</item>
+        <item>31 sek</item>
+        <item>32 sek</item>
+        <item>33 sek</item>
+        <item>34 sek</item>
+        <item>35 sek</item>
+        <item>36 sek</item>
+        <item>37 sek</item>
+        <item>38 sek</item>
+        <item>39 sek</item>
+        <item>40 sek</item>
+        <item>41 sek</item>
+        <item>42 sek</item>
+        <item>43 sek</item>
+        <item>44 sek</item>
+        <item>45 sek</item>
+        <item>46 sek</item>
+        <item>47 sek</item>
+        <item>48 sek</item>
+        <item>49 sek</item>
+        <item>50 sek</item>
+        <item>51 sek</item>
+        <item>52 sek</item>
+        <item>53 sek</item>
+        <item>54 sek</item>
+        <item>55 sek</item>
+        <item>56 sek</item>
+        <item>57 sek</item>
+        <item>58 sek</item>
+        <item>59 sek</item>
+        <item>60 sek</item>
+    </string-array>
+   <string-array
+        name="duration_ringtime">
+        <item>1 sek</item>
+        <item>2 sek</item>
+        <item>3 sek</item>
+        <item>4 sek</item>
+        <item>5 sek</item>
+        <item>6 sek</item>
+        <item>7 sek</item>
+        <item>8 sek</item>
+        <item>9 sek</item>
+        <item>10 sek</item>
+        <item>11 sek</item>
+        <item>12 sek</item>
+        <item>13 sek</item>
+        <item>14 sek</item>
+        <item>15 sek</item>
+        <item>16 sek</item>
+        <item>17 sek</item>
+        <item>18 sek</item>
+        <item>19 sek</item>
+        <item>20 sek</item>
+        <item>21 sek</item>
+        <item>22 sek</item>
+        <item>23 sek</item>
+        <item>24 sek</item>
+        <item>25 sek</item>
+        <item>26 sek</item>
+        <item>27 sek</item>
+        <item>28 sek</item>
+        <item>29 sek</item>
+        <item>30 sek (standard)</item>
+        <item>31 sek</item>
+        <item>32 sek</item>
+        <item>33 sek</item>
+        <item>34 sek</item>
+        <item>35 sek</item>
+        <item>36 sek</item>
+        <item>37 sek</item>
+        <item>38 sek</item>
+        <item>39 sek</item>
+        <item>40 sek</item>
+        <item>41 sek</item>
+        <item>42 sek</item>
+        <item>43 sek</item>
+        <item>44 sek</item>
+        <item>45 sek</item>
+        <item>46 sek</item>
+        <item>47 sek</item>
+        <item>48 sek</item>
+        <item>49 sek</item>
+        <item>50 sek</item>
+        <item>51 sek</item>
+        <item>52 sek</item>
+        <item>53 sek</item>
+        <item>54 sek</item>
+        <item>55 sek</item>
+        <item>56 sek</item>
+        <item>57 sek</item>
+        <item>58 sek</item>
+        <item>59 sek</item>
+        <item>60 sek</item>
+    </string-array>
+    <string-array
+        name="duration_cf_ringtime">
+        <item>Alltid (förhindrar röstbrevlåda)</item>
+        <item>1 sek</item>
+        <item>2 sek</item>
+        <item>3 sek</item>
+        <item>4 sek</item>
+        <item>5 sek</item>
+        <item>6 sek</item>
+        <item>7 sek</item>
+        <item>8 sek</item>
+        <item>9 sek</item>
+        <item>10 sek</item>
+        <item>11 sek</item>
+        <item>12 sek</item>
+        <item>13 sek</item>
+        <item>14 sek</item>
+        <item>15 sek</item>
+        <item>16 sek</item>
+        <item>17 sek</item>
+        <item>18 sek</item>
+        <item>19 sek</item>
+        <item>20 sek</item>
+        <item>21 sek</item>
+        <item>22 sek</item>
+        <item>23 sek</item>
+        <item>24 sek</item>
+        <item>25 sek</item>
+        <item>26 sek</item>
+        <item>27 sek</item>
+        <item>28 sek</item>
+        <item>29 sek</item>
+        <item>30 sek (standard)</item>
+        <item>31 sek</item>
+        <item>32 sek</item>
+        <item>33 sek</item>
+        <item>34 sek</item>
+        <item>35 sek</item>
+        <item>36 sek</item>
+        <item>37 sek</item>
+        <item>38 sek</item>
+        <item>39 sek</item>
+        <item>40 sek</item>
+        <item>41 sek</item>
+        <item>42 sek</item>
+        <item>43 sek</item>
+        <item>44 sek</item>
+        <item>45 sek</item>
+        <item>46 sek</item>
+        <item>47 sek</item>
+        <item>48 sek</item>
+        <item>49 sek</item>
+        <item>50 sek</item>
+        <item>51 sek</item>
+        <item>52 sek</item>
+        <item>53 sek</item>
+        <item>54 sek</item>
+        <item>55 sek</item>
+        <item>56 sek</item>
+        <item>57 sek</item>
+        <item>58 sek</item>
+        <item>59 sek</item>
+        <item>60 sek</item>
+    </string-array>
+</resources>

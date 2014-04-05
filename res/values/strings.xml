@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weblink</string>
+    <string name="about">Om</string>
+    <string name="about_copyright">© Weblink IP Phone AB</string>
+    <string name="about_version_no">Build #:</string>
+    <string name="about_version_name">Version: v</string>
+    <string name="available">Tillgänglig</string>
+    <string name="always">Permanent</string>
+    <string name="active_calls">Aktiva samtal</string>
+    <string name="active_calls_long">Tryck för att hantera samtal</string>
+    <string name="active_calls_handle">Hantera samtal</string>
+    
+    <string name="back_in">Åter tillgänglig om:</string>
+    <string name="block_incoming">Blockera inkommande samtal</string>
+    <string name="block_incoming_busy">Blockera ej inkommande vid upptaget</string>
+    
+    <string name="call_history">Samtalshistorik</string>
+    <string name="call_back">Ring tillbaka</string>
+    <string name="call_options">Alternativ för </string>
+    <string name="call_options_add">Lägg till i kontakter</string>
+    <string name="call_options_add_exp">Välj var kontakten skall skapas</string>
+    <string name="call_options_call">Ring</string>
+    <string name="call_popup_answer">Svara</string>
+    <string name="call_popup_hold">Parkera</string>
+    <string name="call_popup_resume">Återupptag</string>
+    <string name="call_popup_hangup">Lägg på</string>
+    <string name="call_popup_transfer">Koppla</string>
+    <string name="call_settings">Samtalsinställningar</string>
+    <string name="call_answering">Startar samtal&#8230;</string>
+    <string name="call_holding">Parkerar samtal&#8230;</string>
+    <string name="call_resuming">Återupptar samtal&#8230;</string>
+    <string name="call_hanging_up">Avslutar samtal&#8230;</string>
+    <string name="call_transferring">Kopplar samtal&#8230;</string>
+    <string name="call_answer_tip">Besvara samtal</string>
+    <string name="call_hold_tip">Parkera samtal</string>
+    <string name="call_resume_tip">Återuppta samtal</string>
+    <string name="call_hang_up_tip">Avsluta samtal</string>
+    <string name="call_transfer_tip">Koppla samtal till valfritt nummer</string>
+    <string name="call_capital">RING</string>
+    <string name="call_def_capital">RING </string>
+    <string name="call_other_capital">ANNAN&#8230;</string>
+    <string name="call_select">Ring</string>
+    <string name="call_to">Ring till:</string>
+    <string name="call_lc">Ring valfritt nummer</string>
+    <string name="call_number_home">Hem: </string>
+    <string name="call_number_cell">Mobil: </string>
+    <string name="call_number_work">Jobb: </string>
+    <string name="call_main">Ring huvudnummer i</string>
+    <string name="call_list">Ring lista i</string>
+    <string name="call_waiting">Samtal väntar</string>
+    <string name="call_direction_in">Inkommande</string>
+    <string name="call_direction_out">Utgående</string>
+    <string name="call_voicemail">Röstbrevlåda</string>
+    <string name="calling_directly">Internetuppkoppling saknas. Kommer ringa direkt (ej via växel).</string>
+    <string name="calling">Ringer</string>
+    <string name="cancel">Avbryt</string>
+    <string name="cont">Fortsätt</string>
+    <string name="contacts">Kontakter</string>
+    <string name="contact_add">Ny kontakt</string>
+    <string name="contact_update">Redigera kontakt</string>
+    <string name="contact_work_prompt">Jobbnummer</string>
+    <string name="contact_type_prompt">Typ </string>
+    <string name="contact_folder_prompt">I mapp</string>
+    <string name="contact_primary_number_prompt">Ring som standard</string>
+    
+    <string name="contacts_local">\tTelefon</string>
+    <string name="contacts_local2">Telefon</string>
+    <string name="contacts_local_short">\tTel.</string>
+    <string name="contacts_remote">\tAnknytn.</string>
+    <string name="contacts_webcall">\tWebCall</string>
+    <string name="contacts_webcall2">WebCall</string>
+    <string name="contacts_select_prompt">Välj kontaktlista</string>
+    <string name="contacts_select_remote">ANKNYTNINGAR</string>
+    <string name="contacts_select_local">TELEFONBOK</string>
+    <string name="contacts_select_contacts">WEBCALL</string>
+    <string name="contacts_select_company">Växel</string>
+    <string name="contacts_loading">Laddar kontakter&#8230;\n\nDetta steg kan ta upp till en minut.</string>
+    <string name="confirmation">Bekräftelse</string>
+    <string name="could_not_call">Inget svar från server. Hämtar manuellt&#8230;</string>
+    <string name="could_not_set">Ändringen misslyckades. Kontrollera anslutning till server.</string>
+    <string name="could_not_get">Hämtningen misslyckades. Kontrollera anslutning till server.</string>
+    <string name="confirmation_exp">Tryck på en siffra för att svara (förhindrar röstbrevlåda)</string>
+    
+    <string name="dnd">DND</string>
+    <string name="delete">Radera</string>
+    <string name="delete_contact_confirm">Är du säker på att du vill radera kontakten? Detta går inte att ångra.</string>
+    <string name="delete_folder_confirm">Är du säker på att du vill radera mappen? Detta går inte att ångra.</string>
+  
+    <string name="enable">Använd</string>
+    <string name="email_hint">Ex. me@example.com</string>
+    <string name="error">Fel</string>
+    <string name="error_name">Vänligen mata in antingen för- eller efternamn</string>
+    
+    <string name="folder_add">Ny mapp</string>
+    <string name="folder_update">Redigera mapp</string>
+    <string name="folder_title_prompt">Titel</string>
+    <string name="folder_title_hint">Ex. Göteborgskontoret</string>
+    <string name="folder_type_prompt">Typ</string>
+    <string name="folder_parent_prompt">I mapp</string>
+    <string name="follow_me">Följ mig</string>
+    <string name="forwarding">Vidarekoppling</string>
+    <string name="forwarding_always">Koppla alltid</string>
+    <string name="forwarding_busy">Koppla vid upptaget</string>
+    <string name="forwarding_not_available">Koppla vid ej tillgänglig</string>
+    <string name="forwarding_hint">Alternativen nedan används endast när "Koppla alltid" inte är valt</string>
+    
+    <string name="hanging_up">Lägger på&#8230;</string>
+    <string name="help">Hjälp</string> 
+    <string name="help_symbol_explanation">Symbolförklaring</string> 
+    
+    <string name="ignore_voicemail">Ignorera</string>
+    
+    <string name="log_out">Logga ut</string>
+    <string name="log_out_prompt">Är du säker på att du vill logga ut?</string>
+    <string name="log_out_mex_prompt">Logga ut från Mex?</string>
+    
+    <string name="mex_tooltip">Logga in/ut från Mex</string>
+    <string name="mex_login">Logga in Mex</string>
+    <string name="mex_logout">Logga ut Mex</string>
+    <string name="minutes">minuter</string>
+    
+    <string name="new_call">Nytt samtal</string>
+    <string name="new_voicemail">Nya meddelanden</string>
+    <string name="new_voicemail_lc">nya meddelanden</string>
+    <string name="new_voicemail_long">Tryck för att hantera meddelanden</string>
+    <string name="no">Nej</string>
+    <string name="no_mex">Ej Mex</string>
+    <string name="no_name">Ej inloggad</string>
+    <string name="no_calls">Inga aktiva samtal</string>
+    <string name="no_queues">Inga köer</string>
+    <string name="no_internet">Ingen Internetuppkoppling</string>
+    <string name="no_internet_long">Ingen Internetuppkoppling finns tillgänglig.\nVissa inställningar och funktioner har inaktiverats.</string>
+    <string name="no_internet_long_contacts">Ingen Internetuppkoppling finns tillgänglig.\nRinger endast direkt (ej via växel).</string>
+    <string name="no_internet_long_calls">Ingen Internetuppkoppling finns tillgänglig.\nSamtalshantering har inaktiverats.</string>
+    <string name="not_available">Ej tillgänglig</string>
+    <string name="not_implemented">Ej implementerad ännu</string>
+    <string name="number_hint">Ex. 0707112233</string>
+    <string name="number_list">Ringlista</string>
+    <string name="number_prompt">Mata in nummer</string>
+    
+    <string name="ok">OK</string>
+    
+    <string name="properties">Egenskaper</string>
+    <string name="press_to_switch">Tryck här för att växla kontaktlista</string>
+    
+    <string name="queueueueueueues">Köer</string>
+    <string name="queueueueueueues_manage">Köer: Logga in/ut</string>
+    <string name="queueueueueueues_tooltip">Kryssa i köer du vill vara inloggad i</string>
+    
+    <string name="ring_time">Ringtid</string>
+    <string name="ring_time_cf">Ringtid (vidarekoppling)</string>
+    
+    <string name="search">Sök bland kontakter</string>
+    <string name="supply_number">Vänligen tillhandahåll nummer</string>
+    <string name="status">Status</string>
+    <string name="status_prompt">Välj status</string>
+    <string name="status_own_prompt">Mata in en egen statustext</string>
+    <string name="status_own_hint">Ex. Tjänstledig</string>
+    <string name="status_details">Egenskaper</string>
+    <string name="status_end_time">Sluttid</string>
+    <string name="status_use_end_time">Välj sluttid</string>
+    <string name="status_activate_dnd">Aktivera Stör Ej (DND)</string>
+    
+    <string name="transfer_select_call">Välj samtal</string>
+    <string name="transfer_select_manner">Välj överföringstyp</string>
+    <string name="transfer_to">Koppla samtal till:</string>
+    <string name="transfer_direct">Direkt</string>
+    <string name="transfer_att">Övervakad</string>
+    <string name="transfer_att_prompt">Hantera överföring</string>
+    <string name="transfer_att_finish">Slutför</string>
+    <string name="transfer_att_cancel">Avbryt</string>
+    <string name="transfer_capital">KOPPLA</string>
+    <string name="title_section3">Övrigt</string>
+    <string name="title_section2">Samtal</string>
+    <string name="title_section1">Kontakter</string>
+    
+    <string name="updating">Uppdaterar kontakter och samtal&#8230;</string>
+    <string name="unavilable_until">Tillbaka kl. </string>
+    <string name="unavilable_until_toast">Visar som otillgänglig fram till </string>
+    <string name="user">Användare</string>
+    <string name="user_hint">Ändringar här kommer orsaka att du loggas ut.</string>
+    <string name="user_fname">Förnamn</string>
+    <string name="user_lname">Efternamn</string>
+    <string name="user_email">E-postadress</string>
+    <string name="user_mobile">Mobilnummer</string>
+    <string name="user_home">Hemnummer</string>
+    <string name="user_pass">Lösenord</string>
+    
+    
+    <string name="yes">Ja</string>
+</resources>

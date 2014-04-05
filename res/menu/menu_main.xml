@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+     <item	
+        android:id="@+id/ab_call_button"
+        android:title="@string/call_lc"
+        android:icon="@drawable/ic_action_call"
+        android:showAsAction="always"
+	/>
+    
+    <item	
+        android:id="@+id/user_button"
+        android:title="@string/forwarding"
+        android:showAsAction="withText|always"
+	/>
+    
+    <item	
+        android:id="@+id/queueueueue_button"
+        android:title="@string/queueueueueueues"
+        android:icon="@drawable/ic_action_cc_bcc"
+        android:showAsAction="always"
+	/>
+
+</menu>

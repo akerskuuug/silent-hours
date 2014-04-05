@@ -1,0 +1,144 @@
+<resources>
+
+    <string name="title_activity_settings">Inställningar</string>
+    
+    <string name="pref_header_general">Allmänt</string>
+    <string name="pref_title_startup_tab">Visa flik vid uppstart</string>
+    <string name="pref_title_call_local">Ring via växel</string>
+    <string name="pref_title_theme">Tema</string>
+    <string name="pref_title_update_freq">Uppdateringsfrekvens </string>
+    <string name="pref_title_shortcuts">Genvägar</string>
+    <string name="pref_title_call_window">Flytande fönster vid samtal</string>
+    <string name="pref_title_voicemail_number">Nummer till röstbrevlåda</string>
+    
+    
+    <string name="pref_summary_startup_tab">Bestäm vilken flik som skall visas när applikationen öppnas</string>
+    <string name="pref_summary_call_local">Bestäm huruvida telefonsamtal skall gå via företagsväxel eller direkt</string>
+    <string name="pref_summary_theme">Välj grafiskt tema för applikationen. Kräver omstart</string>
+    <string name="pref_summary_update_freq">Bestäm hur ofta sökning efter nya meddelanden sker</string>
+    <string name="pref_summary_shortcuts">Välj vilka genvägar som visas i huvudfliken</string>
+    <string name="pref_summary_call_window">Välj huruvida ett flytande fönster skall visas på skärmen vid aktivt samtal</string>
+    <string name="pref_summary_voicemail_number">Mata in numret till röstbrevlådan</string>
+        
+    <string name="title_call_pbx">Ring via växel (mer tidskrävande)</string>
+    <string name="title_call_local">Ring direkt (kräver Mex för korrekt nummervisning)</string>
+
+    <string name="title_theme_dark">Blått</string>
+    <string name="title_theme_light">Ljust</string>
+    <string name="title_theme_black">Mörkt</string>
+    
+    <string name="title_freq_one">1 minut</string>
+    <string name="title_freq_five">5 minuter</string>
+    <string name="title_freq_ten">10 minuter</string>
+    <string name="title_freq_fifteen">15 minuter</string>
+    <string name="title_freq_twenty">20 minuter</string>
+    <string name="title_freq_thirty">30 minuter (standard)</string>
+    <string name="title_freq_hour">1 timme</string>
+    <string name="title_freq_thour">2 timmar</string>
+    <string name="title_freq_fhour">4 timmar</string>
+    <string name="title_freq_man">Manuellt (längst batteritid)</string>
+    
+    <string-array name="empty_array"/>
+    
+    <string-array name="pref_example_list_titles">
+        <item>@string/title_section1</item>
+        <item>@string/title_section2</item>
+        <item>@string/title_section3</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+	<string-array name="pref_theme">
+        <item>@string/title_theme_light</item>
+        <item>@string/title_theme_dark</item>
+        <item>@string/title_theme_black</item>
+    </string-array>
+   	<string-array name="pref_theme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+     <string-array name="pref_call_local">
+        <item>@string/title_call_pbx</item>
+        <item>@string/title_call_local</item>
+    </string-array>
+   	<string-array name="pref_call_local_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    
+    <string-array name="pref_update_freq">
+        <item>@string/title_freq_one</item>
+        <item>@string/title_freq_five</item>
+        <item>@string/title_freq_ten</item>
+        <item>@string/title_freq_fifteen</item>
+        <item>@string/title_freq_twenty</item>
+        <item>@string/title_freq_thirty</item>
+        <item>@string/title_freq_hour</item>
+        <item>@string/title_freq_thour</item>
+        <item>@string/title_freq_fhour</item>
+        <item>@string/title_freq_man</item>
+    </string-array>
+    
+   	 <string-array name="pref_update_freq_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>240</item>
+        <item>0</item>
+    </string-array>
+    
+   	<string-array
+        name="shortcut_item_texts">
+        <item>Otillgänglig i 30 min</item>
+        <item>Otillgänglig i 60 min</item>
+        <item>Inställningar</item>
+        <item>Användare</item>
+    	<item>Följ mig</item>
+    	<item>Vidarekoppling</item>
+    	<item>Samtalsinställningar</item>
+        <item>Om</item> 
+    	<item>Hjälp</item>
+    	<item>Logga ut</item>
+    </string-array>
+    
+   	<string-array name="pref_shortcut_values">
+        <item>0</item>
+        <item>1</item>
+    	<item>2</item>
+    	<item>3</item>
+    	<item>4</item>
+        <item>5</item> 
+    	<item>6</item>
+    	<item>7</item>
+    	<item>8</item>
+    	<item>9</item>
+    </string-array>
+   	
+   	<string-array
+        name="pref_call_window_texts">
+        <item>Inget</item>
+        <item>Uppe</item>
+        <item>Centrerat</item>
+        <item>Nere</item>
+    </string-array>
+   	
+   	<string-array
+        name="pref_call_window_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+   	
+   	
+</resources>
