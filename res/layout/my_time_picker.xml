@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen" 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal" >
+	<LinearLayout 
+	    android:id="@+id/hour_layout" 
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:background="@android:color/transparent"
+	    android:gravity="center_horizontal">
+	
+	<Button 
+	    android:id="@+id/hour_add_button" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:text="+"
+	    android:textSize="16dip"
+	    android:paddingTop="7dip"
+	    android:paddingBottom="7dip"
+	    android:paddingLeft="20dip"
+	    android:paddingRight="20dip"
+	    android:background="@android:color/transparent" />
+	
+	<ListView 
+	    android:id="@+id/hour_list" 
+	    android:padding="2dip" 
+	    android:background="@android:color/transparent"
+	    android:layout_height="30dip"
+	    android:layout_width="50dip"
+	    android:fastScrollEnabled="false"
+	    android:scrollbars="none"
+	    android:dividerHeight="2dip"
+	    android:fadingEdge="none"/>
+	
+	<Button 
+	    android:id="@+id/hour_subtract_button" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:text="-"
+	    android:textSize="20dip"
+	    android:paddingTop="7dip"
+	    android:paddingBottom="7dip"
+	    android:paddingLeft="20dip"
+	    android:paddingRight="20dip" 
+	    android:background="@android:color/transparent"  />
+	
+	</LinearLayout>
+	
+	<!-- MINUTES -->
+	
+	<LinearLayout 
+	    android:id="@+id/minute_layout" 
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:background="@android:color/transparent"
+	    android:gravity="center_horizontal">
+	
+	<Button 
+	    android:id="@+id/minute_add_button" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:text="+"
+	    android:textSize="16dip"
+	    android:paddingTop="7dip"
+	    android:paddingBottom="7dip"
+	    android:paddingLeft="20dip"
+	    android:paddingRight="20dip"
+	    android:background="@android:color/transparent" />
+	
+	<ListView 
+	    android:id="@+id/minute_list" 
+	    android:padding="2dip" 
+	    android:background="@android:color/transparent"
+	    android:layout_height="30dip"
+	    android:layout_width="50dip"
+	    android:fastScrollEnabled="false"
+	    android:scrollbars="none"
+	    android:dividerHeight="2dip"
+	    android:fadingEdge="none"/>
+	
+	<Button 
+	    android:id="@+id/minute_subtract_button" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:text="-"
+	    android:textSize="20dip"
+	    android:paddingTop="7dip"
+	    android:paddingBottom="7dip"
+	    android:paddingLeft="20dip"
+	    android:paddingRight="20dip" 
+	    android:background="@android:color/transparent"  />
+	
+	</LinearLayout>
+	
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+  	<!-- Buttons -->
+    <RelativeLayout 
+        android:id="@+id/bottom_buttons"
+        android:layout_width="match_parent"
+	    android:layout_height="50dip"
+		android:layout_alignParentTop="true"
+   		android:layout_centerHorizontal="true"
+   		android:layout_marginRight="20dip"
+   		android:layout_marginLeft="20dip" 
+	    android:background="@drawable/list_item"
+	    android:orientation="horizontal" 
+	    android:gravity="center_vertical">
+	    <TextView 
+		    android:id="@android:id/title"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+	        android:layout_marginLeft="10dip"
+			android:layout_alignParentLeft="true"
+   			android:layout_centerVertical="true"
+   			android:gravity="center_vertical"
+   			android:textSize="21sp"
+		    android:text="@string/title_section2"/>
+	    
+	    <CheckBox
+	        android:id="@+id/service_check"
+	        android:layout_width="wrap_content" 
+	        android:layout_height="match_parent"
+	        android:layout_marginLeft="5dip"
+	        android:layout_marginRight="5dip"
+			android:layout_alignParentRight="true"
+   			android:layout_centerVertical="true"
+	        android:button="@drawable/btn_check_holo_light"
+	        android:text="@string/service_stopped"/>   
+	    	
+    </RelativeLayout>
+	
+    <ListView 
+   		android:id="@+id/alarm_list"
+   		android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+   		android:layout_marginRight="20dip"
+   		android:layout_marginLeft="20dip" 
+   		android:layout_below="@+id/bottom_buttons"
+   		android:layout_centerHorizontal="true"
+		android:dividerHeight="0dip"
+		android:listSelector="@drawable/list_selector_holo_light"
+		android:divider="@android:color/transparent"
+    	android:footerDividersEnabled="false" 
+    	android:overScrollMode="never"
+    	android:scrollbars="none"/>  
+   		     
+    
+   
+
+  
+    
+</RelativeLayout>

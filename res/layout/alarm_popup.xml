@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    	android:background="#FFFFFF"
+    	android:fillViewport="true"
+    	android:fadeScrollbars="false">
+	<LinearLayout 
+	    android:id="@+id/main_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:padding="10dip">
+			<TextView 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:text="@string/disable_between"
+				android:textSize="15sp"/>
+			
+			<!-- Divider -->
+			<include layout="@layout/divider"/>
+		 	
+		    
+		    <LinearLayout     
+		        android:layout_width="match_parent"
+		   		android:layout_height="wrap_content"
+		   		android:orientation="horizontal">
+		        <Button 
+		            android:id="@+id/from_button"
+		            android:layout_height="wrap_content"
+		            android:layout_width="80dip"
+					android:background="@drawable/spinner_background_holo_light"
+					android:textSize="16sp"/>
+		        
+		        
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="15sp"
+			        android:layout_marginRight="15sp" 
+			        android:textSize="15sp"
+			        android:text="@string/and"
+			   />
+		        
+		        
+		        <Button 
+		            android:id="@+id/to_button"
+		            android:layout_height="wrap_content"
+		            android:layout_width="80dip"
+					android:background="@drawable/spinner_background_holo_light"
+					android:textSize="16sp"/>
+		        
+		       
+		        
+		    </LinearLayout>
+		    
+		     <TextView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_margin="5dip"
+			        android:layout_marginLeft="15sp"
+			        android:layout_marginRight="15sp" 
+			        android:textSize="13sp"
+			        android:text="@string/scheduler_popup_tooltip_text"
+			   />
+			
+			<TextView 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="10dip"
+			    android:text="@string/actions"
+				android:textSize="15sp"/>
+			
+			<!-- Divider -->
+			<include layout="@layout/divider"/>
+		 	
+		 	<LinearLayout 
+		 	    android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:orientation="horizontal">
+			 	<LinearLayout     
+			 	    android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:orientation="vertical">
+			 		<CheckBox 
+			            android:id="@+id/enable_vibr_check"
+			            android:layout_height="wrap_content"
+			            android:layout_width="wrap_content"
+			            android:layout_marginRight="10dip"
+						android:button="@drawable/btn_check_holo_light"
+			            android:text="@string/enable_vibration" 
+				        android:textSize="13sp"/>
+			        <CheckBox 
+			            android:id="@+id/disable_media_check"
+			            android:layout_height="wrap_content"
+			            android:layout_width="wrap_content"
+						android:button="@drawable/btn_check_holo_light"
+			            android:text="@string/mute_media"
+				        android:textSize="13sp"/> 	    
+				   <CheckBox 
+			            android:id="@+id/lock_check"
+			            android:layout_height="wrap_content"
+			            android:layout_width="wrap_content"
+			            android:layout_marginRight="10dip"
+						android:button="@drawable/btn_check_holo_light"
+			            android:text="@string/lock_volume" 
+				        android:textSize="13sp"/>
+			 	</LinearLayout>
+			 	<LinearLayout     
+			 	    android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:orientation="vertical">
+			        <CheckBox 
+			            android:id="@+id/brightness_check"
+			            android:layout_height="wrap_content"
+			            android:layout_width="wrap_content"
+						android:button="@drawable/btn_check_holo_light"
+			            android:text="@string/brightness_set"
+				        android:textSize="13sp"/> 	
+			        <CheckBox 
+			            android:id="@+id/call_unmute_check"
+			            android:layout_height="wrap_content"
+			            android:layout_width="wrap_content"
+						android:button="@drawable/btn_check_holo_light"
+			            android:text="@string/unmute_on_call"
+				        android:textSize="13sp"/> 	 
+				   	<CheckBox 
+			            android:id="@+id/light_check"
+			            android:layout_height="wrap_content"
+			            android:layout_width="wrap_content"
+			            android:layout_marginRight="10dip"
+						android:button="@drawable/btn_check_holo_light"
+			            android:text="@string/disable_noti_light" 
+				        android:textSize="13sp"/>   
+			 	</LinearLayout>
+		 	</LinearLayout>
+			
+			<TextView 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="10dip"
+			    android:text="@string/use_on"
+				android:textSize="15sp"/>
+			
+			<!-- Divider -->
+			<include layout="@layout/divider"/>
+		 	
+		    <LinearLayout     
+		        android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:orientation="horizontal">
+		        
+		        
+		 		<CheckBox 
+		            android:id="@+id/monday_check"
+		            android:layout_height="wrap_content"
+		            android:layout_width="70dip"
+					android:button="@drawable/btn_check_holo_light"
+					android:checked="true"
+		         	android:text="@string/monday_short"
+			        android:textSize="14sp"/>
+		        
+		        <CheckBox 
+		            android:id="@+id/tuesday_check"
+		            android:layout_height="wrap_content"
+		            android:layout_width="70dip"
+					android:button="@drawable/btn_check_holo_light"
+					android:checked="true"
+		         	android:text="@string/tuesday_short"
+			        android:textSize="14sp"/>
+		        
+		        <CheckBox 
+		            android:id="@+id/wednesday_check"
+		            android:layout_height="wrap_content"
+		            android:layout_width="70dip"
+					android:button="@drawable/btn_check_holo_light"
+					android:checked="true"
+		         	android:text="@string/wednesday_short"
+			        android:textSize="14sp"/>
+		        
+		        <CheckBox 
+		            android:id="@+id/thursday_check"
+		            android:layout_height="wrap_content"
+		            android:layout_width="70dip"
+					android:button="@drawable/btn_check_holo_light"
+					android:checked="true"
+		         	android:text="@string/thursday_short"
+			        android:textSize="14sp"/>
+		        
+		
+		        
+		    </LinearLayout>
+		    <LinearLayout     
+		        android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:orientation="horizontal">
+		            <CheckBox 
+		            android:id="@+id/friday_check"
+		            android:layout_height="wrap_content"
+		            android:layout_width="70dip"
+					android:button="@drawable/btn_check_holo_light"
+					android:checked="true"
+		         	android:text="@string/friday_short"
+			        android:textSize="14sp"/>
+		
+		        <CheckBox
+		            android:id="@+id/saturday_check"
+		            android:layout_height="wrap_content"
+		            android:layout_width="70dip"
+					android:button="@drawable/btn_check_holo_light"
+					android:checked="true"
+		            android:text="@string/saturday_short" 
+			        android:textSize="14sp"/>
+		        
+		        <CheckBox 
+		            android:id="@+id/sunday_check"
+		            android:layout_height="wrap_content"
+		            android:layout_width="70dip"
+					android:button="@drawable/btn_check_holo_light"
+					android:checked="true"
+		         	android:text="@string/sunday_short"
+			        android:textSize="14sp"/>
+		    </LinearLayout>
+    
+		</LinearLayout>
+    </ScrollView>
