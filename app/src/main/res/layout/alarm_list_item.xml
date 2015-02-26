@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dip"
+    android:paddingRight="10dip"
+    android:paddingTop="6dip"
+    android:paddingBottom="17dip"
+    android:background="@drawable/list_item">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/from_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="3dip"
+            android:text="00:00"
+            android:textSize="26sp"/>
+
+        <TextView
+            android:id="@+id/and_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="5dip"
+            android:textSize="14sp"
+            android:text="@string/to"/>
+
+        <TextView
+            android:id="@+id/to_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="2dip"
+            android:text="00:00"
+            android:textSize="26sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/disable_vibr_label"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:padding="5dip"
+                android:text="@string/vibration"
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/disable_media_label"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:padding="5dip"
+                android:text="@string/media"
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/brightness_label"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:padding="5dip"
+                android:text="@string/brightness"
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/unmute_label"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:padding="5dip"
+                android:text="@string/unmute"
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/lock_volume_label"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:padding="5dip"
+                android:text="@string/lock"
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/disable_light_label"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:padding="5dip"
+                android:text="@string/disable_noti_light_short"
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/monday_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="5dip"
+            android:text="@string/monday_short"
+            android:textSize="11sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/tuesday_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="5dip"
+            android:text="@string/tuesday_short"
+            android:textSize="11sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/wednesday_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="5dip"
+            android:text="@string/wednesday_short"
+            android:textSize="11sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/thursday_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="5dip"
+            android:text="@string/thursday_short"
+            android:textSize="11sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/friday_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="5dip"
+            android:text="@string/friday_short"
+            android:textSize="11sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/saturday_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="5dip"
+            android:text="@string/saturday_short"
+            android:textSize="11sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/sunday_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="5dip"
+            android:text="@string/sunday_short"
+            android:textSize="11sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+</LinearLayout>

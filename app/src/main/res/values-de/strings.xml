@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="temp">Bitte lesen: Diese Option wird NICHT auf allen Geräten funktionieren - nur auf denen, die Androids Standardimplementierung des Benachrichtigungslichts verwenden. LG- und Samsung-Geräte (Nexus-Geräte ausgenommen) werden höchstwahrscheinlich NICHT funktionieren. Getestete und funktionierende Geräte: Nexus 4, Galaxy Nexus und Nexus 10</string>
+    
+    
+<string name="app_name">Ruhige Stunden</string>
+<string name="brightness">Helligkeit</string>
+<string name="brightness_set">Setze Helligkeit auf: </string>
+<string name="title_section1">Schnelles Stummschalten</string>
+<string name="title_section2">Zeitplan</string>
+<string name="title_section3">Hilfe</string>
+<string name="actions">Aktionen</string>
+<string name="add">Hinzufügen</string>
+<string name="and">und</string>
+<string name="confirm_delete_short">Zeitraum löschen</string>
+<string name="confirm_delete">Soll dieser Zeitraum wirklich gelöscht werden?\nDas kann nicht rückgängig gemacht werden.</string>
+<string name="done">Fertig</string>
+<string name="disable">Deaktivieren</string>
+<string name="disable_between">Deaktivieren zwischen</string>
+<string name="disable_noti_light">Inaktivera notis-LED</string>
+<string name="disable_noti_light_short">LED</string>
+<string name="duration">Dauer</string>
+<string name="edit">Bearbeiten</string>
+<string name="enable_vibration">Vibration aktivieren</string>
+<string name="lock_volume">Lautstärke sperren</string>
+<string name="lock">Sperren</string>
+<string name="mute_media">Medien stummschalten</string>
+<string name="mute">Stummschalten</string>
+<string name="media">Medien</string>
+<string name="minutes">Minuten</string>
+<string name="no">Nein</string>
+<string name="pick_time">Zeit wählen</string>
+<string name="picker_hint">Schaltflächen antippen oder Text ziehen, um Zeit zu ändern.</string>
+<string name="scheduler_tooltip_text">Schnelles Stummschalten: Schnelles, einmaliges Stummschalten der Klingel- und Benachrichtigungstöne. Töne werden nach Ablauf der eingestellten Dauer wieder aktiviert.\n\nZeitplan: Wenn der Dienst läuft, werden alle Töne (außer Wecker) jeden Tag, innerhalb des eingestellten Zeitraums, automatisch stummgeschaltet.\n\nNeue Zeiträume können durch Antippen von "Hinzufügen" erstellt werden, bestehende können durch langes Drücken des Zeitraums gelöscht werden.\n\nTipp: Um Töne zwischen donnerstags 22:00 und freitags 06:00 stummzuschalten, den Zeitraum auf 22:00 bis 06:00 und den Tag auf Donnerstag stellen.</string>
+<string name="scheduler_popup_tooltip_text">Falls Töne so eingestellt sind, dass sie vor dem Deaktiveren wieder aktiviert werden, werden sie erst am nächsten Tag reaktiviert.</string>
+<string name="service_started">Dienst aktiviert</string>
+<string name="service_stopped">Dienst deaktiviert</string>
+<string name="service_running">Dienst läuft</string>
+<string name="sound_disable_between">Stummschalten zwischen</string>
+<string name="start">Dienst starten</string>
+<string name="stop">Dienst stoppen</string>
+<string name="swipe_tooltip">Nach links oder rechts wischen, um zu navigieren.</string>
+<string name="to">bis</string>
+<string name="unmute_on_call">Bei Anruf Ton aktivieren</string>
+<string name="unmute">Anruf</string>
+<string name="use_on">Aktiv an diesen Tagen</string>
+<string name="vibration">Vibration</string>
+<string name="when_muted">Falls stummgeschaltet:</string>
+<string name="yes">Ja</string>
+<string name="monday_short">Mo</string>
+<string name="tuesday_short">Di</string>
+<string name="wednesday_short">Mi</string> 
+<string name="thursday_short">Do</string>
+<string name="friday_short">Fr</string> 
+<string name="saturday_short">Sa</string>
+<string name="sunday_short">So</string>
+<string name="indefinitely">auf unbestimmte Zeit</string>
+</resources>
