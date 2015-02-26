@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Silent Hours</string>
+    
+    <string name="brightness">яркость</string>
+    <string name="brightness_set">Установить яркость: </string>
+    <string name="title_section1">быстро безмолвный</string>
+    <string name="title_section2">расписание</string>
+    <string name="title_section3">Помогите</string>
+	<string name="actions">Действия</string>
+    <string name="add">Добавить новый период</string>
+    <string name="and">и</string>
+    <string name="confirm_delete_short">Удалить период</string>
+    <string name="confirm_delete">"Вы уверены, что хотите удалить этот период? Это нельзя отменить."</string>
+    <string name="done">Сделано</string>
+    <string name="disable">Выключить:</string>
+    <string name="disable_between">Выключить между:</string>
+	<string name="disable_noti_light">отключить свет</string>
+	<string name="disable_noti_light_short">свет</string>
+	<string name="duration">Длительность</string>
+	<string name="edit">редактировать</string>
+    <string name="enable_vibration">Вибрация \nвключена</string>
+    <string name="lock_volume">Блокировка \nгромкости</string>
+    <string name="lock">Блокировка</string>
+    <string name="mute_media">Медиа без \nзвука</string> <!-- (музыка, игры и т.д.)</string> -->
+	<string name="mute">безмолвный</string> 
+	<string name="media">Медиа</string>
+	<string name="minutes">минуты</string>
+    <string name="no">Нет</string>
+    <string name="pick_time">Выберите время</string>
+    <string name="picker_hint">Нажмите кнопку или текст для изменения времени.</string>
+    <string name="scheduler_tooltip_text">"Когда программа запущена, она автоматически выключает все звуки (кроме будильников) каждый день в соответствии с заданным временем. 
+        \nДля добавления и настройки нового периода нажмите кнопку Добавить новый период, для удаления периода нажмите и удерживайте строку с его расписанием. 
+		\nЗапомните, если звук включить после того, как он был автоматически выключен, то он не выключится автоматически до следующего дня."</string>
+	<string name="scheduler_popup_tooltip_text"></string>
+    <string name="service_started">Сервис включен</string>
+    <string name="service_stopped">Сервис выключен</string>
+    <string name="service_running">Сервис запущен</string>
+    <string name="sound_disable_between">Выключить звук между:</string>
+    <string name="start">Запуск сервиса</string>
+    <string name="stop">Остановка сервиса</string>
+ 	<string name="swipe_tooltip">Swipe left or right to navigate.</string>
+    <string name="unmute_on_call">Включение \nпри вызове</string>
+    <string name="unmute">вызове</string>
+	<string name="use_on">Использование на</string>
+	<string name="vibration">Вибрация</string>
+    <string name="when_muted">Когда звук выключен:</string>
+    <string name="yes">Да</string>
+    <string name="indefinitely">бесконечно</string>
+    
+    
+    <string name="monday_short">Пн</string>
+    <string name="tuesday_short">Вт</string>
+    <string name="wednesday_short">Ср</string>
+    <string name="thursday_short">Чт</string>
+    <string name="friday_short">Пт</string>
+    <string name="saturday_short">Сб</string>
+    <string name="sunday_short">Вс</string>
+    <string name="to">по</string>
+    
+</resources>

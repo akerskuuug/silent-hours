@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="#e5e5e5"
+    >
+    <LinearLayout
+        android:layout_width="350dip"
+	    android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="50dip"
+	    android:layout_marginRight="24dip"
+	    android:layout_marginLeft="24dip"
+	    android:orientation="vertical"
+	    android:padding="10dip"
+	    android:background="@drawable/list_item">
+	    <LinearLayout 
+	        android:id="@+id/top_layout"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:layout_margin="10dip"
+			android:layout_marginTop="10dip" 
+			android:layout_marginLeft="10dip"
+			android:orientation="vertical">
+		    <TextView 
+		        android:id="@+id/duration_title"
+			   	android:layout_width="match_parent"
+			   	android:layout_height="wrap_content"
+			   	android:text="@string/duration"
+				android:textSize="15sp" />
+					
+			<!-- Divider -->
+			<include layout="@layout/divider"/>
+	   	</LinearLayout> 
+	    <TextView 
+	        android:id="@+id/duration_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"  
+	        android:layout_marginTop="20dip"
+	        android:gravity="center"
+	        android:padding="0dip"
+	        android:textSize="26sp"
+	        />
+	    
+	    <SeekBar 
+	        android:id="@+id/duration_slider"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"  
+	        android:max="640"
+	        android:layout_margin="10dip"
+	        android:layout_marginLeft="30dip"
+	        android:layout_marginRight="30dip"
+	        android:thumb="@drawable/scrubber_control_selector_holo_light"
+	        android:progressDrawable="@drawable/scrubber_progress_horizontal_holo_light"
+	        />
+	     <CheckBox 
+		    android:id="@+id/enable_vibr_check"
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_marginTop="10dip"
+		    android:layout_marginRight="10dip"
+			android:layout_marginLeft="10dip"
+			android:layout_marginBottom="10dip"
+			android:button="@drawable/btn_check_holo_light"
+		    android:text="@string/enable_vibration" 		
+		    android:textSize="14sp"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/bottom_buttons"
+		android:layout_alignParentBottom="true"
+        android:layout_width="200dip"
+	    android:layout_height="50dip"
+	    android:layout_marginLeft="10dip"
+	    android:background="@drawable/list_item"
+	    android:orientation="horizontal" 
+	    android:gravity="center">
+	     <Button 
+	    	android:id="@+id/quick_button"
+	    	android:layout_width="match_parent" 
+			android:layout_height="match_parent" 
+	        android:layout_margin="0dip" 
+	        android:background="@drawable/list_selector_holo_light"
+	        android:textSize="16sp"
+	    	android:text="@string/mute" />
+	     
+     </LinearLayout>  
+</RelativeLayout>

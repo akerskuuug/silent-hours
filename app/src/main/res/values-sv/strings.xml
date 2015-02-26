@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Silent Hours</string>
+    <string name="brightness">Ljusstyrka</string>
+    <string name="brightness_set">Ändra ljusstyrka</string>
+    <string name="title_section1">Snabbtysta</string>
+    <string name="title_section2">Schema</string>
+    <string name="title_section3">Hjälp</string>
+    <string name="actions">Åtgärder</string>
+	<string name="add">Lägg till ny</string>
+	<string name="and">och</string>
+	<string name="confirm_delete_short">Ta bort period</string>
+	<string name="confirm_delete">Är du säker på att du vill ta bort denna period?\nDenna åtgärd kan inte ångras.</string>
+ 	<string name="done">Klar</string>
+	<string name="disable">Inaktivera</string>
+	<string name="disable_between">Inaktivera mellan</string>
+	<string name="disable_noti_light">Inaktivera notis-LED</string>
+	<string name="disable_noti_light_short">LED</string>
+	<string name="duration">Period</string>
+	<string name="edit">Redigera</string>
+ 	<string name="enable_vibration">Aktivera vibration</string>
+ 	<string name="lock_volume">Lås volymen</string>
+ 	<string name="lock">Lås</string>
+ 	<string name="mute_media">Tysta medialjud</string>
+ 	<string name="mute">Tyst läge</string>
+	<string name="media">Media</string>
+	<string name="minutes">minuter</string>
+	<string name="no">Nej</string>
+	<string name="pick_time">Välj tid</string> 
+ 	<string name="picker_hint">Tryck på knapparna eller dra i texten för att ändra tid.</string>
+ 	<string name="scheduler_tooltip_text">Snabbtysta: Genomför en snabb engångstystning av ringsignal och meddelandeton. Ljudet återaktiveras efter den bestämda perioden. \n\nSchema: När tjänsten är aktiv kommer den automatiskt tysta alla ljud (förutom alarm) varje dag mellan de satta tiderna.\n\nSkapa och ställ in en ny period genom att trycka på "Lägg till ny", radera en period genom att trycka på den och hålla kvar.\n\nTips: För att tysta telefonen mellan 22:00 på torsdag och 06:00 på fredag, sätt tiden på 22:00 till 06:00 och dagen till torsdag.</string>
+	<string name="scheduler_popup_tooltip_text">Observera att om ljudet sätts till att aktiveras innan det inaktiveras så kommer aktiveringen ske nästa dag.</string>
+ 	<string name="service_started">Tjänsten startad</string>
+	<string name="service_stopped">Tjänsten stoppad</string>
+	<string name="service_running">Tjänsten aktiv</string>
+ 	<string name="sound_disable_between">Tysta ljud mellan:</string>
+ 	<string name="start">Starta tjänst</string>
+ 	<string name="stop">Stoppa tjänst</string>
+ 	<string name="swipe_tooltip">Svep åt vänster eller höger för att navigera.</string>
+ 	<string name="unmute_on_call">Ljud vid samtal</string>
+ 	<string name="unmute">Samtal</string>
+	<string name="use_on">Använd på</string>
+	<string name="vibration">Vibration</string>
+ 	<string name="when_muted">I tystat läge:</string>
+	<string name="yes">Ja</string>
+    <string name="indefinitely">Obegränsat</string>
+ 	
+ 	
+	<string name="monday_short">Må</string>
+	<string name="tuesday_short">Ti</string>
+	<string name="wednesday_short">On</string>
+	<string name="thursday_short">To</string>
+	<string name="friday_short">Fr</string>
+	<string name="saturday_short">Lö</string>
+	<string name="sunday_short">Sö</string>
+	<string name="to">till</string>
+	
+ 	
+</resources>
